@@ -1,0 +1,143 @@
+* {
+    box-sizing: content-box;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding:0;
+    
+  }
+  
+  :root {
+    font-size: 16px;
+  }
+  
+ 
+
+  .box{
+    border: 1px solid rgba(255, 0, 0, 0.315);
+    height: 300px;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .contact-link {
+    color: rgba(36, 36, 36);
+    text-decoration: none;
+  }
+  
+  .copyright {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .center-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .center-content.text-start , .center-content .text-start {
+    align-items: self-start;
+  }
+  
+  .pfp{
+    width: auto;
+    height: 500px;
+  }
+  
+  .navbar-nav {
+    flex-direction: row;
+  }
+  
+  .nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+  }
+  
+  .school {
+    list-style-type: none;
+  }
+  
+  .degree {
+    font-weight: bolder;
+  }
+  
+  .work_place {
+    list-style-type: none;
+  }
+  
+  .work_position {
+    font-weight: bolder;
+  }
+  
+  /* Style all font awesome icons */
+  .fa {
+    padding: 17px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: rgb(36, 36, 36);
+    border-radius: 50%;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: rgb(36, 36, 36);
+    border-radius: 50%;
+    color: white;
+  }
+  
+  /* Instagram */
+  .fa-instagram {
+    background: rgb(36, 36, 36);
+    border-radius: 50%;
+    color: white;
+  }
+  
+  /* Github */
+  .fa-github {
+    background: rgb(36, 36, 36);
+    border-radius: 50%;
+    color: white;
+  }
+  
+  /* LinkedIn */
+  .fa-linkedin {
+    background: rgb(36, 36, 36);
+    border-radius: 50%;
+    color: white;
+  }
+  
+  /* Fixes dropdown menus placed on the right side */
+  .me-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px ;
+  }
+  
+  .width-auto{
+    width: auto !important;
+  }
+  
+  @media screen and (max-width:991px) {
+    
+  ul.custom-nav .nav-item * {
+    padding-left: 70% !important;
+  }
+  }
+  
+  
