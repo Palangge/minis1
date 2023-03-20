@@ -1,0 +1,83 @@
+/* 
+    Provides a semantic media query from the following:
+    Respond above XX(screen sizes)
+    Respond below XX
+    Respond between XX and XX
+
+    Whereas:
+    XX is the two letter bootstrap breakpoint (i.e sm, md)
+
+    SYNTAX for media query
+    @media (min-width: 768px) and (max-width: 991px) 
+    {
+        Target devices between 768px and 992px
+    }
+
+    It's best practice to use Bootstrap breakpoints in your own code but it's painful to write them all the time.  
+*/
+:root {
+  font-size: 16px;
+}
+
+.slol {
+  height: 90vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-image: url("../images/wallpapers/Gray_White.svg");
+  background-size: cover;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 6px;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Point Left */
+.fa-hand-back-point-right {
+  background: rgb(36, 36, 36);
+  border-radius: 50%;
+  color: white;
+}
+
+.class-with-background1 {
+  background-image: url("../images/wallpapers/Gray_White.svg");
+  background-size: contain;
+}
+
+.class-with-background2 {
+  background-image: url("../images/wallpapers/Gradient_White-Gray.svg");
+  background-size: contain;
+  background-color: gray;
+}
+
+@media (min-width: 576px) {
+  .card {
+    display: block;
+  }
+}
+@media (max-width: true-1) {
+  .card {
+    display: block;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+/*
+    Respond Between
+    - it checks both lower and upper keys exists in the breakpoints before  writing this in the media query
+    - we will check that both $lower and $upper keys exists in the $breakpoints map before writing it in the media query
+*/
+@media (min-width: 576px) and (max-width: 1399px) {
+  .card img {
+    display: block;
+    height: 100%;
+  }
+}
