@@ -19,6 +19,12 @@
   font-size: 16px;
 }
 
+.center_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .slol {
   height: 90vh;
   width: 100%;
@@ -43,6 +49,54 @@
   background: rgb(36, 36, 36);
   border-radius: 50%;
   color: white;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  color: black;
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+/* Facebook */
+.fa-facebook {
+  background: rgb(108, 117, 125);
+  border-radius: 50%;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: rgb(108, 117, 125);
+  border-radius: 50%;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: rgb(108, 117, 125);
+  border-radius: 50%;
+  color: white;
+}
+
+/* Github */
+.fa-github {
+  background: rgb(108, 117, 125);
+  border-radius: 50%;
+  color: white;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+  background: rgb(108, 117, 125);
+  border-radius: 50%;
+  color: white;
+}
+
+/* Fixes dropdown menus placed on the right side */
+.me-auto .dropdown-menu {
+  left: auto !important;
+  right: 0px;
 }
 
 .class-with-background1 {

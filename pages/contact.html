@@ -23,8 +23,10 @@
     
     <header>
         
-        <nav class="navbar navbar-expand-md bg-body-secondary">
+        <nav class="navbar navbar-expand-md bg-body-secondary mb-3">
+
             <div class="container-fluid ">
+
                 <a class="navbar-brand" href="#">
                     <img src="../images/icons/android-chrome-192x192.png" height="70" alt="Logo">
                     Angel's Guide
@@ -102,24 +104,82 @@
           </nav>
     </header>
 
-    <banner>
+    <section>
 
-        <div class="card">
+        <div class="container-fluid row row-cols-1 row-cols-sm-5 mb-3 g-1">
 
-            <div class="slol align-items-center">
+            <form action="" class="container col-sm-5 pt-3 pb-3 mt-3 shadow border rounded-3">
 
-            </div>
+                <div class="card-body align-items-center">
+                    <!-- First Name text field -->
+                    <div class="mb-3">
+                        <label for="fName" class="form-label">
+                            First Name
+                        </label>
+                        <input type="text" class="form-control" id="fName" placeholder="Enter your First name" required>
+                    </div>
+                    <!-- Last Name text field -->
+                    <div class="mb-3">
+                        <label for="lName" class="form-label">
+                            Last Name
+                        </label>
+                        <input type="text" class="form-control" id="lName" placeholder="Enter your Email Address" required>
+                    </div>
+                    <!-- Email Address field -->
+                    <div class="mb-3">
+                        <label for="emailAdd" class="form-label">
+                            Email address
+                        </label>
+                        <input type="email" class="form-control" id="emailAdd" placeholder="Enter your Email Address" required>
+                    </div>
+                    <!-- Contact Number -->
+                    <div class="mb-3">
+                        <label for="contactNo" class="form-label">
+                            Contact Number
+                        </label>
+                        <input type="text" class="form-control" id="contactNo" placeholder="Enter your Contact Number (046)-123-4567" required>
+                    </div>
+                    <!-- Message box -->
+                    <div class="mb-3">
+                        <label for="message" class="form-label">
+                            Please state your detailed message here
+                        </label>
+                        <textarea class="form-control" id="message" rows="3">
+                        </textarea>
+                    </div>
+                    <!-- Action Buttons -->
+                    <button type="submit" class="btn btn-secondary">Submit</button>
+                    <button type="reset" class="btn btn-outline-secondary">Clear</button>
+
+                </div>
+
+            </form>
+
+            <socials1 class="container col-sm-4 pt-3 pb-3 mt-3 shadow border rounded-3 center_box">
+                
+                <div class="card-body">
+                    
+                    <div class="text-center">
+                        You can follow us on our social media.
+                    </div>
+
+                    <div class="text-center align-items-center">
+                        <p>
+                            <i href="https://www.facebook.com/palangge25" rel="noopener" class="fa fa-facebook"></i>
+                            <i href="https://twitter.com/Palangge25" rel="noopener" class="fa fa-twitter"></i>
+                            <i href="https://www.instagram.com/palangge_22" rel="noopener" class="fa fa-instagram"></i>
+                            <i href="https://github.com/Palangge" rel="noopener" class="fa fa-github"></i>
+                            <i href="https://www.linkedin.com/in/angelito-arboleda-4b05a9168" rel="noopener" class="fa fa-linkedin"></i>
+                        </p>
+                    </div>
+
+                </div>
+                
+            </socials1>
 
         </div>
         
-    </banner>
-
-
-
-
-
-
-
+    </section>
 
     <footer class="justify-content-center">
         
