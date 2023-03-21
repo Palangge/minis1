@@ -54,6 +54,18 @@ $breakpoints: (
     background-size: cover;
 }
 
+//Links
+.contact-link {
+    color: black;
+    text-decoration: none;
+}
+  
+.contact-link:hover {
+    color: rgb(108, 117, 125);
+    opacity: 1;
+}
+  
+
 
 
 /* Style all font awesome icons */
