@@ -44,21 +44,43 @@
                             </form>
 
                             <ul class="navbar-nav ms-auto custom-nav mb-2 mb-lg-0" >
+                                
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    <a class="nav-link" href="../index.html">
+                                        Home
+                                    </a>
                                 </li>
+    
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#featured" >Featured</a>
+                                    <a class="nav-link" href="about.html">
+                                        About Us
+                                    </a>
                                 </li>
+    
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#services">Services</a>
+                                    <a class="nav-link" href="featured.html" >
+                                        Featured
+                                    </a>
                                 </li>
+    
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#Contact">Contact</a>
+                                    <a class="nav-link" href="services.html">
+                                        Services
+                                    </a>
                                 </li>
+    
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#login">Login</a>
+                                    <a class="nav-link"href="contact.html">
+                                        Contact
+                                    </a>
                                 </li>
+    
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">
+                                        Login
+                                    </a>
+                                </li>
+
                             </ul>
                         
                         </div>
@@ -69,17 +91,52 @@
           </nav>
     </header>
 
-    <banner>
+    <section>
 
-        <div class="card">
+        <div class="container-fluid row row-cols-1 row-cols-sm-5 mb-3 g-1">
 
-            <div class="slol align-items-center">
+            <form action="" class="container col-sm-5 pt-3 pb-3 mt-3 shadow border rounded-3">
 
-            </div>
+                <div class="card-body align-items-center">
+
+                    <!-- Email Address field -->
+                    <div class="mb-3">
+                        <label for="emailAdd" class="form-label">
+                            Email address
+                        </label>
+                        <input type="email" class="form-control" id="emailAdd" placeholder="Enter your Email Address" required>
+                    </div>
+                    <!-- Password field -->
+                    <div class="mb-3">
+                        <label for="Password" class="form-label">
+                            Password
+                        </label>
+                        <input type="password" class="form-control" id="password" placeholder="Password" required>
+                    </div>
+                    <!-- Remember me checkbox -->
+                    <div class="input-group gap-2 mb-1 align-items-center">
+                        
+                        <input class="form-check-input rounded-1 mt-0" id="checkbox" type="checkbox" value="" aria-label="Checkbox for following text input">
+                        
+                        <label for="checkbox">Remember me</label>
+                        
+                    </div>
+
+                    <div href="lostpassword.html" rel="noopener" class="btn page-link text-start mb-2">
+                        Forgot password?
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <button type="submit" class="btn btn-secondary">Login</button>
+                    <button type="submit" class="btn btn-outline-secondary">Register</button>
+
+                </div>
+
+            </form>
 
         </div>
-        
-    </banner>
+
+    </section>
 
 
     <footer class="justify-content-center">
