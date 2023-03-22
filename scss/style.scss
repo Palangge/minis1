@@ -42,6 +42,8 @@ body{
     min-height: 100vh;
     display: grid;
     max-width: 100vw;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-secondary-bg-rgb),var(--bs-bg-opacity))!important;
 }
 // *{
 //     background-color: rgba(0, 255, 255, 0.288);
