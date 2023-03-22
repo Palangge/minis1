@@ -23,7 +23,7 @@
     
     <header>
         
-        <nav class="navbar navbar-expand-md bg-body-secondary mb-3">
+        <nav class="navbar navbar-expand-md bg-body-secondary">
 
             <div class="container-fluid ">
 
@@ -104,95 +104,99 @@
           </nav>
     </header>
 
-    <section>
+    <section class="slol">
 
-        <div class="container-fluid row row-cols-1 row-cols-sm-5 mb-3 g-1">
+        <card class="card bg-transparent border-0 justify-content-center align-items-center">
 
-            <form action="" class="container col-sm-5 pt-3 pb-3 mt-3 shadow border rounded-3">
+            <div class="container-fluid row row-cols-1 row-cols-sm-12 mb-3 g-1">
 
-                <div class="card-body align-items-center">
-                    <!-- First Name text field -->
-                    <div class="mb-3">
-                        <label for="fName" class="form-label">
-                            First Name
-                        </label>
-                        <input type="text" class="form-control" id="fName" placeholder="Enter your First name" required>
+                <form action="" class="container col-sm-5 pt-3 pb-3 mt-3 shadow bg-light border rounded-3">
+
+                    <div class="card-body align-items-center">
+                        <!-- First Name text field -->
+                        <div class="mb-3">
+                            <label for="fName" class="form-label">
+                                First Name
+                            </label>
+                            <input type="text" class="form-control" id="fName" placeholder="Enter your First name" required>
+                        </div>
+                        <!-- Last Name text field -->
+                        <div class="mb-3">
+                            <label for="lName" class="form-label">
+                                Last Name
+                            </label>
+                            <input type="text" class="form-control" id="lName" placeholder="Enter your Email Address" required>
+                        </div>
+                        <!-- Email Address field -->
+                        <div class="mb-3">
+                            <label for="emailAdd" class="form-label">
+                                Email address
+                            </label>
+                            <input type="email" class="form-control" id="emailAdd" placeholder="Enter your Email Address" required>
+                        </div>
+                        <!-- Contact Number -->
+                        <div class="mb-3">
+                            <label for="contactNo" class="form-label">
+                                Contact Number
+                            </label>
+                            <input type="text" class="form-control" id="contactNo" placeholder="Enter your Contact Number (046)-123-4567" required>
+                        </div>
+                        <!-- Message box -->
+                        <div class="mb-3">
+                            <label for="message" class="form-label">
+                                Please state your detailed message here
+                            </label>
+                            <textarea class="form-control" id="message" rows="3">
+                            </textarea>
+                        </div>
+                        <!-- Action Buttons -->
+                        <button type="submit" class="btn btn-secondary">Submit</button>
+                        <button type="reset" class="btn btn-outline-secondary">Clear</button>
+
                     </div>
-                    <!-- Last Name text field -->
-                    <div class="mb-3">
-                        <label for="lName" class="form-label">
-                            Last Name
-                        </label>
-                        <input type="text" class="form-control" id="lName" placeholder="Enter your Email Address" required>
-                    </div>
-                    <!-- Email Address field -->
-                    <div class="mb-3">
-                        <label for="emailAdd" class="form-label">
-                            Email address
-                        </label>
-                        <input type="email" class="form-control" id="emailAdd" placeholder="Enter your Email Address" required>
-                    </div>
-                    <!-- Contact Number -->
-                    <div class="mb-3">
-                        <label for="contactNo" class="form-label">
-                            Contact Number
-                        </label>
-                        <input type="text" class="form-control" id="contactNo" placeholder="Enter your Contact Number (046)-123-4567" required>
-                    </div>
-                    <!-- Message box -->
-                    <div class="mb-3">
-                        <label for="message" class="form-label">
-                            Please state your detailed message here
-                        </label>
-                        <textarea class="form-control" id="message" rows="3">
-                        </textarea>
-                    </div>
-                    <!-- Action Buttons -->
-                    <button type="submit" class="btn btn-secondary">Submit</button>
-                    <button type="reset" class="btn btn-outline-secondary">Clear</button>
 
-                </div>
+                </form>
 
-            </form>
-
-            <socials1 class="container col-sm-4 pt-3 pb-3 mt-3 shadow border rounded-3 center_box">
-                
-                <div class="card-body">
+                <socials1 class="container col-sm-5 pt-3 pb-3 mt-3 shadow bg-light border rounded-3 center_box">
                     
-                    <div class="text-center pb-3">
-                        You can follow us on our social media.
+                    <div class="card-body">
+                        
+                        <div class="text-center pb-3">
+                            You can follow us on our social media.
+                        </div>
+
+                        <div class="text-center align-items-center pb-2">
+                            <p>
+                                <a href="https://www.facebook.com/palangge25" rel="noopener" aria-label="facebook" class="fa fa-facebook"></a>
+                                <a href="https://twitter.com/Palangge25" rel="noopener" aria-label="twitter" class="fa fa-twitter"></a>
+                                <a href="https://www.instagram.com/palangge_22" rel="noopener" aria-label="instagram" class="fa fa-instagram"></a>
+                                <a href="https://github.com/Palangge" rel="noopener" aria-label="github" class="fa fa-github"></a>
+                                <a href="https://www.linkedin.com/in/angelito-arboleda-4b05a9168" rel="noopener" aria-label="linkedin" class="fa fa-linkedin"></a>
+                            </p>
+                        </div>
+
+                        <div class="text-center">
+                            Email Address:
+                            <a href="mailto:palangge@gmail.com" class="contact-link">
+                            Palangge@gmail.com
+                            </a>
+                            <span>
+                            |
+                            </span>
+                            Telephone Number:
+                            <a href="tel:01234567" class="contact-link">
+                            0123-4567
+                            </a>
+                        </div>
+
                     </div>
+                    
+                </socials1>
 
-                    <div class="text-center align-items-center pb-2">
-                        <p>
-                            <a href="https://www.facebook.com/palangge25" rel="noopener" aria-label="facebook" class="fa fa-facebook"></a>
-                            <a href="https://twitter.com/Palangge25" rel="noopener" aria-label="twitter" class="fa fa-twitter"></a>
-                            <a href="https://www.instagram.com/palangge_22" rel="noopener" aria-label="instagram" class="fa fa-instagram"></a>
-                            <a href="https://github.com/Palangge" rel="noopener" aria-label="github" class="fa fa-github"></a>
-                            <a href="https://www.linkedin.com/in/angelito-arboleda-4b05a9168" rel="noopener" aria-label="linkedin" class="fa fa-linkedin"></a>
-                        </p>
-                    </div>
+            </div>
 
-                    <div class="text-center">
-                        Email Address:
-                        <a href="mailto:palangge@gmail.com" class="contact-link">
-                          Palangge@gmail.com
-                        </a>
-                        <span>
-                          |
-                        </span>
-                        Telephone Number:
-                        <a href="tel:01234567" class="contact-link">
-                          0123-4567
-                        </a>
-                    </div>
+        </card>
 
-                </div>
-                
-            </socials1>
-
-        </div>
-        
     </section>
 
     <footer class="justify-content-center">
