@@ -27,7 +27,7 @@ body {
   grid-template-columns: 1fr;
   grid-template-areas: "header header" "section" "footer footer";
 }
-body > * :not(header) :not(footer) :not(script) :not(link) :not(.leftSidebar) :not(.rightSidebar) :not(.card-body) :not(.banner1) :not(.card-body) {
+body > * :not(header) :not(footer) :not(script) :not(link) :not(.leftSidebar) :not(.rightSidebar) :not(.card-body) :not(.banner1) :not(.accordion1) {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
