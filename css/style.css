@@ -144,6 +144,12 @@ bg-transparent {
   border-color: rgb(108, 117, 125);
 }
 
+.end-content a {
+  background-color: rgb(108, 117, 125);
+  color: white;
+  border-color: rgb(108, 117, 125);
+}
+
 /* make it red instead (with with same width and style) */
 *:active, *:hover {
   outline-color: rgb(108, 117, 125);
