@@ -115,7 +115,6 @@ bg-transparent{
     background-image: url("../images/wallpapers/Gray_White.svg");
     background-size: cover;
     font-size: 1.25rem;
-    
 }
 
 // .slol1 {
@@ -167,6 +166,13 @@ bg-transparent{
     float: left;
 }
 
+//Background
+
+.carousel-control-next-icon , .carousel-control-prev-icon {
+    background-color: rgba(108, 117, 125, 0.2);
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px;
+}
 
 //Links
 
