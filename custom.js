@@ -1,3 +1,5 @@
+
+//filter function start
 function myFunction(id/*string*/,carousel_item_number/*int*/){
   // Get the checkbox
   var checkBox = document.getElementById(id);
@@ -34,7 +36,7 @@ function hasClass(el, className)
     if (el.classList)
         return el.classList.contains(className);
     return !!el.className.match(new RegExp('(\\s|^)' + className + '(\\s|$)'));
-}
+}//utility for checking if a class exist in the given element
 
 function addClass(el, className)
 {
@@ -42,7 +44,7 @@ function addClass(el, className)
         el.classList.add(className)
     else if (!hasClass(el, className))
         el.className += " " + className;
-}
+}//utility for adding a class to the given element
 
 function removeClass(el, className)
 {
@@ -53,9 +55,13 @@ function removeClass(el, className)
         var reg = new RegExp('(\\s|^)' + className + '(\\s|$)');
         el.className = el.className.replace(reg, ' ');
     }
-}
+}//utility for removing a class to the given element
+//filter function end
 
+
+//bootstrap tooltip (mostly for mobile, not important for desktop)
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
   return new bootstrap.Tooltip(tooltipTriggerEl)
 })
+//bootstrap tooltip
